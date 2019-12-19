@@ -12,7 +12,6 @@ import (
 )
 
 func RegisterConsul() {
-	fmt.Println("KESINI WOIII")
 	config := consulapi.DefaultConfig()
 
 	consul, err := consulapi.NewClient(config)
